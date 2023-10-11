@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线书店</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+
+<body>
+    <!-- 在线书店网站：学生可以设计一款在线书店网站，包括书籍展示、购买流程、用户登录、购物车管理等功能。在网站中应用HTML、CSS和JavaScript实现页面布局、样式美化以及动态交互效果。 -->
+    <!-- 首页 -->
+    <div id="hearder">
+        <div class="hear_top">
+            <div class="hear_cen">
+                <div class="hear_logo"></div>
+                <div class="hear_right">
+                    <ul>
+                        <li>
+                            <a href="#">书店首页</a>
+                        </li>
+                        <li onclick="myShow()">
+                            <a href="#" id="show" target="_blank">书籍展示</a>
+                        </li>
+                        <li onclick="myClassify()">
+                            <a href="#" target="_blank" id="classify">分类</a>
+                        </li>
+                        <li onclick="myShapping()">
+                            <a href="#" class="shapping" id="shapping" target="_blank">购物车</a>
+                        </li>
+                        <li onclick="myRecord()">
+                            <a href="#" style="margin-right: 0;" id="record" target="_blank">登录</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播图 -->
+    <div class="recom" id="box">
+        <div class="recom_hd">
+            <div class="im"></div>
+            <div class="title"></div>
+            <div class="book" id="book">
+                <div class="book_wrap">
+                    <ul id="recommend_book_lunbo_ul">
+                        <li>
+                            <a href="">
+                                <img src="../images/1.jpg" alt="" style="margin-left: 0;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="../images/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/1.1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/1.2.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dian">
+                <ol>
+                    <li class="cir"></li>
+                    <li></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- 内容开始 -->
+    <div class="center">
+        <!-- 出版图书 -->
+        <div class="pubBook">
+            <div class="title">
+                <h2>出版图书</h2>
+                <ul>
+                    <li>
+                        <a href="#">小说</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">励志成功</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">文学</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">经济管理</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="#">更多</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="show">
+                <s class="sign"></s>
+                <div class="showLeft">
+                    <h3>我亲爱的小竹马</h3>
+                    <p class="p1">作者：酒小七</p>
+                    <p class="p2">你是我生命里最重要的存在，仿佛是与生俱来的本能，呼吸相通，深入骨髓。</p>
+                    <span>
+                        <a href="#">
+                            <img src="../images/9.jpg" alt="">
+                        </a>
+                    </span>
+                </div>
+                <ul class="showCenter">
+                    <li>
+                        <a href="#">
+                            <img src="../images/10.jpg" alt="">
+                        </a>
+                        <p class="p1">中药很苦，你很甜</p>
+                        <p class="p2">乔方</p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/11.jpg" alt="">
+                        </a>
+                        <p class="p1">天嫁之合</p>
+                        <p class="p2">禾维</p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/12.jpg" alt="">
+                        </a>
+                        <p class="p1">奢侈</p>
+                        <p class="p2">折火一夏</p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/13.jpg" alt="">
+                        </a>
+                        <p class="p1">我亲爱的小竹马</p>
+                        <p class="p2">酒小七</p>
+                    </li>
+                </ul>
+                <div class="showRight">
+                    <h3>
+                        <s class="crown"></s>
+                        <a href="#">热销榜</a>
+                    </h3>
+                    <ul>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">龙王出狱</span>
+                                    <span class="num">
+                                        <s></s>
+                                        23952
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>2</dt>
+                                <dd>
+                                    <span class="bookName">微水浮沉</span>
+                                    <span class="num">
+                                        <s></s>
+                                        83w+
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">太荒吞天诀</span>
+                                    <span class="num">
+                                        <s></s>
+                                        4898
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">混沌吞天诀</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8433
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">不朽天帝</span>
+                                    <span class="num">
+                                        <s></s>
+                                        5833
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">无上杀神（修罗至尊-3）</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8310
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">剑来</span>
+                                    <span class="num">
+                                        <s></s>
+                                        3940
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">剑道第一仙</span>
+                                    <span class="num">
+                                        <s></s>
+                                        1767
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">仙魔同修</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8556
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">傻子医仙</span>
+                                    <span class="num">
+                                        <s></s>
+                                        7601
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 精选圈子 -->
+        <div class="sel_Cir">
+            <div class="conBigTitle">
+                <h2>精选圈子</h2>
+            </div>
+            <div class="cirShow">
+                <ul class="cirBig">
+                    <li>
+                        <span class="cirHead">
+                            <a href="#">
+                                <img src="../images/14.jpg" alt="">
+                            </a>
+                            <s class="fire"></s>
+                        </span>
+                        <h3>古代言情</h3>
+                        <p class="little">相望古言，相聚古言，古言–我们的家园</p>
+                        <span class="attent">
+                            <s class="fans"></s>
+                            <i>35w+</i>
+                            <s class="cards"></s>
+                            <i>26049</i>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="cirHead">
+                            <a href="#">
+                                <img src="../images/15.jpg" alt="">
+                            </a>
+                            <s class="fire"></s>
+                        </span>
+                        <h3>现代言情</h3>
+                        <Hey, class="little">Hey, 你的少女心♥掉在这里了...</p>
+                            <span class="attent">
+                                <s class="fans"></s>
+                                <i>21w+</i>
+                                <s class="cards"></s>
+                                <i>13804</i>
+                            </span>
+                    </li>
+                    <li>
+                        <span class="cirHead">
+                            <a href="#">
+                                <img src="../images/16.jpg" alt="">
+                            </a>
+                            <s class="fire"></s>
+                        </span>
+                        <h3>青春校园</h3>
+                        <p class="little">青嶂青溪直复斜，春雪空濛帘外寒；校量功力相千万，园林月白秋霖散。</p>
+                        <span class="attent">
+                            <s class="fans"></s>
+                            <i>14w+</i>
+                            <s class="cards"></s>
+                            <i>14248</i>
+                        </span>
+                    </li>
+                </ul>
+                <div class="zwtit">
+                    <img src="../images/17.png" alt="">
+                </div>
+                <ul class="cirLittle zwqz">
+                    <li>
+                        <span class="litHead">
+                            <a href="#">
+                                <img src="../images/17.jpg" alt="">
+                            </a>
+                        </span>
+                        <div class="bookCon">
+                            <h3>情感</h3>
+                            <p>0部作品</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="litHead">
+                            <a href="#">
+                                <img src="../images/18.jpg" alt="">
+                            </a>
+                        </span>
+                        <div class="bookCon">
+                            <h3>科幻</h3>
+                            <p>0部作品</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="litHead">
+                            <a href="#">
+                                <img src="../images/19.jpg" alt="">
+                            </a>
+                        </span>
+                        <div class="bookCon">
+                            <h3>悬疑推理</h3>
+                            <p>0部作品</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="litHead">
+                            <a href="#">
+                                <img src="../images/20.jpg" alt="">
+                            </a>
+                        </span>
+                        <div class="bookCon">
+                            <h3>武侠</h3>
+                            <p>0部作品</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="litHead">
+                            <a href="#">
+                                <img src="../images/21.jpg" alt="">
+                            </a>
+                        </span>
+                        <div class="bookCon">
+                            <h3>文学</h3>
+                            <p>0部作品</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 男生频道 -->
+        <div class="dif_Area">
+            <div class="conBigTitle">
+                <h2>男生频道</h2>
+                <p>
+                    <a href="#">玄幻</a>|
+                    <a href="#">奇幻</a>|
+                    <a href="#">武侠</a>|
+                    <a href="#">仙侠</a>|
+                    <a href="#">更多</a>
+                </p>
+            </div>
+            <div class="show">
+                <s class="sign"></s>
+                <div class="showLeft">
+                    <h3>重生小马</h3>
+                    <p class="p1">作者：得遇良馨</p>
+                    <p class="p2">重生黄金大时代，翻手云覆手雨，扶摇直上九万里！</p>
+                    <span>
+                        <a href="#">
+                            <img src="../images/22.jpg" alt="">
+                        </a>
+                    </span>
+                </div>
+                <ul class="showMid">
+                    <li>
+                        <h3>逆天神尊</h3>
+                        <p class="name">白云干</p>
+                        <p class="introduce">少年楚天，候府世子，天赋异禀，遭受暗算，沦为废人，且看他如何一步步，登天路，跨万古，破宿命，最终成就一代绝世强者。</p>
+                    </li>
+                    <li>
+                        <h3>三国：从抢蔡文姬开始</h3>
+                        <p class="name">醉生梦死</p>
+                        <p class="introduce">重生了？还剩一天可活？
+                            不怕！咱有大山贼系统，抢天抢地抢空气，只要敢抢就有寿命！
+                            美女？抢！黄金！抢！天下江山？我也抢！
+                            叮，恭喜宿主，成功收服蔡文姬，奖励黄金宝箱，狼骑兵训练手册。
+                            叮，恭喜宿主，成功收服典韦，奖励钻石宝箱……
+                            叮！恭喜宿主，成功收服赵云，奖励王者宝箱……</p>
+                    </li>
+                    <li>
+                        <h3>最强神魔召唤系统</h3>
+                        <p class="name">长衫云侯</p>
+                        <p class="introduce">史上最强召唤系统，神魔相助，制霸无上帝皇！</p>
+                    </li>
+                    <li>
+                        <h3>我娶了魔教教主</h3>
+                        <p class="name">闲鱼炖野鹤</p>
+                        <p class="introduce">穿越成为魔教教主的丈夫？怎么办，在线等，挺急的。</p>
+                    </li>
+                    <li>
+                        <h3>玄幻：我从徒弟身上刷属性</h3>
+                        <p class="name">念辰</p>
+                        <p class="introduce">只要收徒就能从徒弟身上提取修为，为了世界和平他只好广收门徒并且努力压榨徒弟的潜力。</p>
+                    </li>
+                    <li>
+                        <h3>万界之镇压诸天</h3>
+                        <p class="name">白衫负剑</p>
+                        <p class="introduce">穿越万界，我为至尊！</p>
+                    </li>
+                </ul>
+                <div class="showRight">
+                    <h3>
+                        <s class="crown"></s>
+                        <a href="#">热销榜</a>
+                    </h3>
+                    <ul>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">龙王出狱</span>
+                                    <span class="num">
+                                        <s></s>
+                                        23952
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>2</dt>
+                                <dd>
+                                    <span class="bookName">微水浮沉</span>
+                                    <span class="num">
+                                        <s></s>
+                                        83w+
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">太荒吞天诀</span>
+                                    <span class="num">
+                                        <s></s>
+                                        4898
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">混沌吞天诀</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8433
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">不朽天帝</span>
+                                    <span class="num">
+                                        <s></s>
+                                        5833
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">无上杀神（修罗至尊-3）</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8310
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">剑来</span>
+                                    <span class="num">
+                                        <s></s>
+                                        3940
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">剑道第一仙</span>
+                                    <span class="num">
+                                        <s></s>
+                                        1767
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">仙魔同修</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8556
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">傻子医仙</span>
+                                    <span class="num">
+                                        <s></s>
+                                        7601
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 女生频道 -->
+        <div class="dif_Area">
+            <div class="conBigTitle">
+                <h2>女生频道</h2>
+                <p>
+                    <a href="#">现代言情</a>|
+                    <a href="#">古代言情</a>|
+                    <a href="#">幻想言情</a>|
+                    <a href="#">青春校园</a>|
+                    <a href="#">更多</a>
+                </p>
+            </div>
+            <div class="show">
+                <s class="sign"></s>
+                <div class="showLeft">
+                    <h3>仵作娇娘</h3>
+                    <p class="p1">
+                        仵作娇娘</p>
+                    <p class="p2">
+                        女主篇：薄若幽在五岁那年父母双亡。叔伯们找来道士一算，竟是她丧门星克父克母，更断言她短命相活不过十八。打着给她改命的旗号，叔伯们将她赶出了家门。她走后，财产被占亲事被夺，他们抢走一切，只等着她死在十八岁。他们等啊等，还没等到薄若幽十八，却先等来她一手剖尸验骨之术名动江南。权贵请她让死人说话，王侯求她为活人申冤，而在她身后，还站着令整个大周朝闻风丧胆的男人。男主篇：上掌绣衣使，下摄提刑司，狠辣乖戾的霍危楼虽权倾朝野，却对女色嗤之以鼻因此初见时，哪怕薄若幽出身官门，容颜无双，他亦对其厌如敝履。后来，看她纤纤素手验的了红衣女尸，破得了鬼魂夺命，辨的清陈年之冤……霍危楼：真香，真特么香！
+                    </p>
+                    <span>
+                        <a href="#">
+                            <img src="../images/23.jpg" alt="">
+                        </a>
+                    </span>
+                </div>
+                <ul class="showMid">
+                    <li>
+                        <h3>异香</h3>
+                        <p class="name">狂上加狂</p>
+                        <p class="introduce">
+                            阴差阳错，没有名姓的乡野童养媳一夜成了高门嫡女，告别简衣陋食的日子，开始锦屋绣榻、优哉游哉的贵女生涯。在别人看来，父亲是朱门世家，未婚夫是皇家贵子，就连俊美的表哥也是未来的首辅重臣，此生本应无憾。可惜她每日晨起总有三问：银子攒够了吗？婚事退了吗？我……可以下岗了吗？
+                        </p>
+                    </li>
+                    <li>
+                        <h3>山河枕</h3>
+                        <p class="name">墨书白</p>
+                        <p class="introduce">
+                            【卫韫版】卫韫十四岁那年，满门男丁战死沙场，家破人亡，那时只有奶奶和他那位新嫂陪着他撑着卫家奶奶说，新嫂子不容易，刚拜堂就没了丈夫，等日后他发达了，务必要为嫂子寻一门好的亲事。那时候他说，好。卫韫二十岁那年，内阁大学士顾楚生上门给楚瑜提亲，卫韫提着刀上了顾家大门，他说，进了我卫家的门，这一生都得是我卫家的人。顾楚生嘲讽出声，你哥都死了，她是谁的人？卫韫捏紧了刀，一字一句答，我卫韫的人。【楚瑜版】楚瑜上辈子为了顾楚生，逃了御赐的婚，走了千里的路，最后却仍旧落了个病死他乡的下场。重生到十五岁，楚瑜正在逃婚的路上，她毅然回头，嫁进了卫家大门。她知道卫家会满门战死，只留下一个十四岁的卫韫，独撑高门。她也知道卫韫会撑起卫家，成为未来权倾朝野、说一不二的镇北王。所以她想，陪着卫韫走过这段最艰难的时光，然后成为卫家说一不二的大夫人。却不曾想，最后，她真的成为了卫家说一不二的“大夫人”。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>难哄</h3>
+                        <p class="name">竹已</p>
+                        <p class="introduce">史上最强召唤系统，神魔相助，制霸无上帝皇！</p>
+                    </li>
+                    <li>
+                        <h3>六零娇宠纪
+                        </h3>
+                        <p class="name">麻逗</p>
+                        <p class="introduce">
+                            从2017年到1957年，顾安安没有想到，胃癌病逝，再次睁眼，她居然穿越了大半个世纪，来到了那个最艰难的年代。幸好幸好，爷爷奶奶慈祥和善，父母都是女儿奴，哥哥都是妹妹控，让曾经是孤儿的顾安安收获从未有过的亲情和感动。可是，随着二叔家的堂姐落水性格大变后，顾安安意识到，自己似乎穿越到了一本小说里，在那本小说里，爷爷奶奶是极品，他们一家是炮灰，最后都没什么好下场，顾安安怎么能看着那样的事发生。好在重生附送了一个金手指，顾安安发现自己能听得懂动物的话，并且操控那些可爱的小动物，左有屯粮小仓鼠，右有死皮赖脸大色狼，顾安安要在那个艰难困苦的时代里，带着全家走向幸福。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>六零年代小舅妈</h3>
+                        <p class="name">六零年代小舅妈</p>
+                        <p class="introduce">
+                            沈美华望着眼前的小男孩，她要是没有记错的话，这是前不久她看的一本年代文里的男主，而她穿成男主的小舅妈。那个作天作地，不仅打外甥连自己亲儿子都死命打的奇女子。此女子的日常生活：吃饭、睡觉、打孩子，外加时不时的去部队跟丈夫撒泼打野。想到后面这位小舅妈的凄惨下场只觉得脚底寒气直冒，她一定是在做梦，快让她醒醒。不久后，大院里的人都知道严团长的媳妇沈美华变了，不仅不打孩子就连队里也不常去了，每天一大早挺着大肚子带着两个孩子在院里扭着身子做着奇怪的动作，嘴里还喊着口号哩。
+                        </p>
+                    </li>
+                    <li class="l1"></li>
+                </ul>
+                <div class="showRight">
+                    <h3>
+                        <s class="crown"></s>
+                        <a href="#">热销榜</a>
+                    </h3>
+                    <ul>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">龙王出狱</span>
+                                    <span class="num">
+                                        <s></s>
+                                        23952
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>2</dt>
+                                <dd>
+                                    <span class="bookName">微水浮沉</span>
+                                    <span class="num">
+                                        <s></s>
+                                        83w+
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">太荒吞天诀</span>
+                                    <span class="num">
+                                        <s></s>
+                                        4898
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">混沌吞天诀</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8433
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">不朽天帝</span>
+                                    <span class="num">
+                                        <s></s>
+                                        5833
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">无上杀神（修罗至尊-3）</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8310
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">剑来</span>
+                                    <span class="num">
+                                        <s></s>
+                                        3940
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">剑道第一仙</span>
+                                    <span class="num">
+                                        <s></s>
+                                        1767
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">仙魔同修</span>
+                                    <span class="num">
+                                        <s></s>
+                                        8556
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="close">
+                                <dt>1</dt>
+                                <dd>
+                                    <span class="bookName">傻子医仙</span>
+                                    <span class="num">
+                                        <s></s>
+                                        7601
+                                    </span>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="v1_foot" style="margin-top: 0;">
+        <div class="download">
+            <h3>获取掌阅iReader</h3>
+            <div class="loadLeft">
+                <a href="#">
+                    <span class="icon">
+                        <s></s>
+                    </span>
+                    <p class="explain">
+                        下载iOS版
+                    </p>
+                </a>
+            </div>
+            <div class="loadRight">
+                <a href="#">
+                    <span class="icon">
+                        <s></s>
+                    </span>
+                    <p class="explain">
+                        下载Android版
+                    </p>
+                </a>
+            </div>
+        </div>
+        <!-- <div class="aboutcompany">
+            <dl>
+                <dt>小组成员:</dt>
+                <dd>王振宇 2022245512</dd>
+                <dd>李 嚆 2022245511</dd>
+                <dd>柴子越 2022245512</dd>
+                <dd>田坤 2022245512</dd>
+                <dd>李哲恺 2022245512</dd>
+                <dd style="margin-bottom: 20px;">蒋凯 2022245512</dd>
+            </dl>
+        </div> -->
+    </div>
+    <span class="goTop" id="btn_back_top" style="left: 1252.5px; display: block;">
+        <img src="../font/go_top.png" alt="">
+    </span>
+</body>
+<script src="../js/index.js"></script>
+<script src="../js/publick.js"></script>
+
+</html>

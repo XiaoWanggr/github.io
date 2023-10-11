@@ -1,0 +1,633 @@
+#hearder {
+    width: 100%;
+}
+#hearder .hear_top {
+    width: 100%;
+    background: #fff;
+}
+#hearder .hear_top .hear_cen {
+    max-width: 1212px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+#hearder .hear_top .hear_cen .hear_logo {
+    background: url(../images/logo.jpg) no-repeat;
+    width: 120px;
+    height: 84px;
+    float: left;
+}
+#hearder .hear_top .hear_cen .hear_right {
+    float: right;
+}
+#hearder .hear_top .hear_cen .hear_right ul li {
+    display: inline-block;
+    font-size: 17px;
+    height: 84px;
+    line-height: 84px;
+}
+#hearder .hear_top .hear_cen .hear_right ul a {
+    margin-right: 60px;
+}
+#hearder .hear_top .hear_cen .hear_right ul .shapping {
+    background: url(../font/_购物车.png) no-repeat;
+    padding-left: 24px;
+}
+
+.recom {
+    width: 100%;
+    height: 100%;
+}
+.recom .recom_hd {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.recom .recom_hd .im {
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        rgb(47, 99, 112),
+        rgb(23, 172, 97),
+        rgb(141, 168, 41)
+    );
+}
+.recom .recom_hd .book {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.recom .recom_hd .book .book_wrap {
+    width: 518px;
+    overflow: hidden;
+}
+.recom .recom_hd .book .book_wrap ul {
+    width: 3000px;
+}
+.recom .recom_hd .book li {
+    display: inline-block;
+}
+.recom .recom_hd .book li a img {
+    margin-left: 10px;
+}
+.recom .recom_hd .dian {
+    position: absolute;
+    bottom: 85px;
+    left: 46%;
+}
+.recom .recom_hd .dian li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 10px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.recom .recom_hd .dian .cir {
+    opacity: 1;
+}
+.center {
+    max-width: 1212px;
+    height: 100%;
+    margin: 0 auto;
+}
+.center .pubBook {
+    overflow: hidden;
+}
+.pubBook .title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 44px 0 30px 0;
+}
+.pubBook .title h2 {
+    color: #212121;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.pubBook .title ul li {
+    display: inline-block;
+}
+.pubBook .title ul li span {
+    color: #9e9e9e;
+}
+.pubBook .title ul li a {
+    color: #9e9e9e;
+}
+.pubBook .title ul li a:hover {
+    color: #f26552;
+}
+.show {
+    position: relative;
+    width: 100%;
+    height: 579px;
+}
+s {
+    background: url(../font/icon.png) no-repeat;
+}
+.show .sign {
+    width: 63px;
+    height: 63px;
+    background-position: -26px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.show .showLeft {
+    position: relative;
+    float: left;
+    width: 398px;
+    height: 100%;
+    background: #fff;
+    padding: 45px 56px 0;
+}
+.show .showLeft h3 {
+    font-size: 20px;
+    cursor: pointer;
+}
+.show .showLeft h3:hover {
+    color: #f26552;
+}
+.show .showLeft .p1,
+.show .showLeft .p2 {
+    font-size: 12px;
+    color: #9e9e9e;
+}
+.show .showLeft .p2 {
+    width: 246px;
+    height: 64px;
+    overflow: hidden;
+    margin-bottom: 94px;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    position: relative;
+}
+.show .showLeft .p1 {
+    margin: 25px 0;
+}
+.show .showLeft span {
+    position: absolute;
+    bottom: 25px;
+    right: 45px;
+}
+.show .showLeft img {
+    width: 156px;
+    height: 208px;
+}
+.show .showCenter {
+    position: absolute;
+    top: 0;
+    left: 398px;
+    box-sizing: border-box;
+    float: left;
+    width: 421px;
+    height: 100%;
+    background: #fff;
+    border-left: 1px solid #f0f0f0;
+}
+.show .showCenter li {
+    float: left;
+    width: 210px;
+    padding: 49px 46px 42px;
+    border: 1px solid #f0f0f0;
+}
+.show .showCenter li .p1 {
+    cursor: pointer;
+}
+.show .showCenter li .p2 {
+    color: #9e9e9e;
+}
+.show .showCenter li .p1:hover {
+    color: #f26552;
+}
+.show .showRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: left;
+    width: 393px;
+    height: 100%;
+    background: #fff;
+    padding: 28px 0 0 30px;
+}
+.show .showRight h3 {
+    position: relative;
+    width: 363px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 27px;
+}
+.show .showRight h3 .crown {
+    width: 21px;
+    height: 18px;
+    background-position: 0px -68px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.show .showRight h3 a {
+    font-size: 25px;
+}
+
+.show .showRight .close {
+    margin-top: 14px;
+}
+.show .showRight .close dt {
+    float: left;
+    width: 10px;
+    text-align: right;
+    margin-right: 18px;
+}
+
+.show .showRight li,
+.show .showRight dl {
+    overflow: hidden;
+}
+.show .showRight dl dt,
+.show .showRight dl dd {
+    line-height: 35px;
+}
+.show .showRight .close {
+    color: #9e9e9e;
+}
+.show .showRight .close dd {
+    width: 290px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+.show .showRight .close .bookName {
+    width: 130px;
+    height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+.show .showRight .close .num {
+    float: right;
+    font-size: 12px;
+    font-family: arial;
+    margin-left: 10px;
+}
+.show .showRight .close .num s {
+    width: 14px;
+    height: 9px;
+    background-position: -86px -73px;
+    float: left;
+    margin: 13px 6px 0 0;
+}
+.show .showRight dl dd span {
+    display: inline-block;
+}
+.conBigTitle {
+    width: 1212px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 44px 0 30px 0;
+}
+.conBigTitle h2 {
+    color: #212121;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.cirShow {
+    background: #fff;
+    overflow: hidden;
+}
+.cirBig {
+    width: 1212px;
+    height: 292px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.cirBig li {
+    width: 404px;
+    height: 292px;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.cirBig .cirHead {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    font-family: "Microsoft Yahei", arial, sans-serif;
+    color: #9e9e9e;
+}
+.cirBig .cirHead img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.cirBig .cirHead .fire {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: -23px -66px;
+}
+.cirBig li h3 {
+    font-size: 18px;
+    width: 242px;
+    height: 20px;
+    overflow: hidden;
+    margin: 16px auto 8px;
+    color: #212121;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.cirBig li h3:hover {
+    color: #f26552;
+}
+.cirBig li .little {
+    width: 226px;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+}
+.cirBig li .attent {
+    margin-top: 20px;
+}
+.cirBig li .attent .fans {
+    width: 17px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 10px;
+    background-position: -49px -68px;
+}
+.cirBig li .attent i {
+    font-size: 14px;
+    float: left;
+}
+.cirBig li .attent .cards {
+    background-position: -68px -68px;
+    width: 17px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 10px;
+}
+.zwtit {
+    padding: 22px 0 0 0;
+    text-align: center;
+}
+.zwtit img {
+    width: 149px;
+    height: 29px;
+}
+.zwqz {
+    display: block;
+}
+.cirLittle {
+    padding: 0 40px;
+    height: 129px;
+}
+.cirLittle li {
+    width: 224px;
+    float: left;
+    padding: 30px 0 0 22px;
+    overflow: hidden;
+}
+.cirLittle li .litHead {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+}
+.cirLittle li .litHead img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.zwqz li .bookCon {
+    padding: 8px 0 0 10px;
+}
+.cirLittle li .bookCon {
+    float: left;
+}
+.cirLittle li .bookCon h3 {
+    width: 64px;
+    height: 23px;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.cirLittle li .bookCon h3:hover {
+    color: #f26552;
+}
+.cirLittle li .bookCon p {
+    height: 18px;
+    font-size: 12px;
+}
+
+.dif_Area .conBigTitle {
+    width: 1212px;
+    text-align: center;
+    padding: 44px 0 30px 0;
+}
+.dif_Area .conBigTitle p a {
+    margin: 0 4px;
+}
+.show .showMid {
+    float: left;
+    width: 421px;
+    border-left: 1px solid #f0f0f0;
+    box-sizing: border-box;
+}
+.dif_Area .showMid {
+    padding-top: 0;
+}
+
+.show .showMid li {
+    float: left;
+    width: 101px;
+    padding: 40px 38px 42px;
+    border-right: 1px solid #f0f0f0;
+}
+.dif_Area .showMid li {
+    box-sizing: content-box;
+    width: 173px;
+    padding: 40px 18px 26px;
+    overflow: hidden;
+    background: #fff;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.show .showMid li h3 {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 28px;
+    width: 142px;
+    height: 20px;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.show .showMid li h3:hover {
+    color: #f26552;
+}
+.dif_Area .showMid li .name {
+    margin: 6px 0 10px;
+}
+.dif_Area .showMid li p {
+    width: 142px;
+}
+.show .showMid p {
+    width: 104px;
+    height: 20px;
+    overflow: hidden;
+}
+.dif_Area .showMid li .introduce {
+    width: 142px;
+    height: 62px;
+    overflow: hidden;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.dif_Area .showMid .l1 {
+    width: 173px;
+    height: 127px;
+    border: none;
+}
+.v1_foot {
+    width: 100%;
+    height: 100%;
+    color: #9e9e9e;
+    overflow: hidden;
+}
+.v1_foot a {
+    color: #9e9e9e;
+}
+.v1_foot s {
+    float: none;
+}
+.download {
+    width: 348px;
+    height: 138px;
+    background: #e6e6e6;
+    border-right: 10px;
+    margin: 40px auto 30px;
+    padding: 0 46px;
+    box-sizing: content-box;
+}
+.download h3 {
+    font-size: 18px;
+    color: #212121;
+    text-align: center;
+    padding: 22px 0 24px 0;
+}
+.download .loadLeft,
+.download .loadRight {
+    float: left;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background: #212121;
+    cursor: pointer;
+}
+.download .loadLeft:hover,
+.download .loadRight:hover {
+    opacity: 0.8;
+}
+.download a {
+    display: block;
+    overflow: hidden;
+}
+.download .icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-right: 1px solid #f7f7f7;
+}
+.download .loadLeft s {
+    display: block;
+    width: 21px;
+    height: 23px;
+    margin: 8px auto 0;
+    background-position: -2px -92px;
+}
+
+.download .loadLeft .explain {
+    float: left;
+    width: 118px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.download .loadRight {
+    float: right;
+    background: #4caf50;
+}
+.download .loadRight s {
+    display: block;
+    width: 21px;
+    height: 23px;
+    margin: 8px auto 0;
+    background-position: -24px -92px;
+}
+.download .loadRight .explain {
+    float: left;
+    width: 118px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.aboutcompany {
+    width: 1212px;
+    margin: 0 auto;
+}
+.aboutcompany dl {
+    text-align: center;
+    margin: 0 auto;
+}
+.aboutcompany dl dt {
+    font-size: 25px;
+    font-weight: 900;
+    color: #212121;
+}
+.aboutcompany dd {
+    margin: 25px 0 0 242px;
+    font-size: 17px;
+    color: #212121;
+    font-weight: bold;
+}
+.goTop {
+    position: fixed;
+    width: 63px;
+    height: 63px;
+    right: 10px;
+    bottom:10px;
+    cursor: pointer;
+}

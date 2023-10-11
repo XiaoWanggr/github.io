@@ -1,0 +1,168 @@
+s {
+    background: url(../font/sjIcon.png) no-repeat;
+}
+.center_show {
+    width: 100%;
+}
+.center_show .show_s {
+    width: 1212px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+.show_s .bookL {
+    float: left;
+    width: 26.9%;
+}
+.show_s .bookL s {
+    width: 58px;
+    height: 23px;
+    line-height: 18px;
+    position: absolute;
+    background-position: 0 0;
+    margin: 11px 0 0 -5px;
+    color: #fff;
+    padding-left: 28px;
+}
+.show_s .bookL a {
+    margin: 68px auto 0;
+    width: 156px;
+    height: 208px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.show_s .bookL a img {
+    width: 100%;
+    height: 100%;
+}
+img {
+    border: 0;
+}
+.show_s .bookL .shadow {
+    position: absolute;
+    left: 185px;
+    top: 361px;
+}
+.show_s .bookR {
+    float: left;
+    width: 73.1%;
+    overflow: hidden;
+    padding-bottom: 27px;
+    border-left: 1px solid #f0f0f0;
+}
+.show_s .bookR .bookinf01 {
+    padding: 22px 40px 0 30px;
+    height: 94px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.bookR .bookinf01 .bookname {
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: #212121;
+}
+.bookR .bookinf01 .bookname h2 {
+    max-width: 438px;
+    height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+.bookR .bookinf01 .bookname h2 a {
+    color: #212121;
+    font-size: 20px;
+}
+.bookR .bookinf01 .bookname h2 a:hover  {
+    color: #f26552;
+}
+.bookR .bookinf01 .bookname span {
+    float: right;
+    font-size: 20px;
+}
+.bookR .bookinf01 p {
+    overflow: hidden;
+}
+.bookR .bookinf01 p span {
+    float: left;
+}
+.bookR .bookinf01 p .manyMan {
+    float: right;
+}
+.show_s .bookR .bookinf02 {
+    padding: 24px 40px 0 30px;
+    height: 116px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.bookR .bookinf02 .left {
+    float: left;
+    width: 180px;
+    margin-top: 4px;
+}
+.bookR .bookinf02 .left a:hover {
+    color: #fff;
+}
+.bookR .bookinf02 .left p {
+    margin-bottom: 18px;
+    width: 300px;
+}
+.bookR .bookinf02 .left p .price {
+    color: #212121;
+}
+.bookR .bookinf02 .left p i {
+    margin-right: 10px;
+}
+.bookR .bookinf02 .left .tryRead {
+    width: 80px;
+    height: 30px;
+    background: #8bc34a;
+}
+.bookR .bookinf02 .left span {
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.bookR .bookinf02 .left .buyBook {
+    width: 70px;
+    height: 30px;
+    background: #f26552;
+    margin-left: 6px;
+}
+.bookR .bookinf02 .right {
+    float: right;
+    width: 164px;
+}
+.bookR .bookinf02 .right .look_phone {
+    float: left;
+}
+.bookR .bookinf02 .right .look_ewm  {
+    float: right;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+.bookR .bookinf03 {
+    padding: 24px 40px 0 30px;
+}
+.bookR .bookinf03 p {
+    line-height: 18px;
+    height: 54px;
+    overflow: hidden;
+    margin-bottom: 13px;
+    text-overflow: ellipsis;
+}
+.bookR .bookinf03 .shareWrap {
+    overflow: hidden;
+}
+.bookR .bookinf03 .shareWrap span {
+    float: right;
+}
+.bookR .bookinf03 .shareWrap span s {
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    background-position: -71px -25px;
+    margin-left: 5px;
+}

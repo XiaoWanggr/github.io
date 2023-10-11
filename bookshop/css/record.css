@@ -1,0 +1,80 @@
+.logo {
+    width: 230px;
+    height: 169px;
+    margin: 32px auto 0;
+    background: url(../font/logo.png) no-repeat;
+}
+.sign_c {
+    width: 320px;
+    margin: 26px auto 0;
+}
+.sign {
+    line-height: normal;
+    font-size: 14px;
+    border: 1px solid #abcbcb;
+    border-top: 0;
+    border-radius: 2px;
+    background: #fff;
+}
+.sign .row {
+    height: 44px;
+    padding-left: 12px;
+    border-top: 1px solid #abcbcb;
+    position: relative;
+}
+.row {
+    line-height: 44px;
+}
+.sign .inp {
+    width: 180px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    border: 0;
+    outline: none;
+    background: none;
+}
+.msg_erro {
+    padding: 0 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 21px;
+    border-radius: 2px;
+    background: red;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+.sign_c .btn_gray {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+}
+.btn_bg_orange {
+    background: #ff7200;
+}
+.btn_gray {
+    width: 96px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.sign_c .btn_o {
+    margin-top: 24px;
+}
+.btn_o {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #ff7200;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}

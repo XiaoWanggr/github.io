@@ -1,0 +1,370 @@
+.w {
+    width: 1212px;
+    margin: auto;
+}
+
+
+span {
+    display: inline-block;
+}
+
+.genre {
+    height: 187px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 18px 46px;
+}
+
+.genre .lo {
+    width: 1008px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.lo .left {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 30px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.lo .right {
+    float: left;
+    width: 900px;
+    height: 30px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.lo ul li {
+    float: left;
+    padding-right: 6px;
+}
+
+.lo ul li a {
+    font-size: 14px;
+    margin-right: 14px;
+
+}
+
+.le {
+    margin-top: 20px;
+}
+
+.le .left {
+    float: left;
+    display: block;
+    width: 48px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.le .right {
+    float: left;
+    width: 1030px;
+    height: 30px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.le .right ul li {
+    float: left;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.le .right ul li a,
+.lo .right ul li a,
+.other .right ul li a {
+    display: block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.le .right ul li a:hover,
+.lo .right ul li a:hover,
+.other .right ul li a:hover {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.genre .right ul li:nth-child(1) a {
+    color: #fff;
+    border-radius: 50px;
+    background: #9e9e9e;
+    border: 1px solid #9e9e9e;
+}
+
+.other .left {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 30px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.other .right {
+    float: left;
+    width: 900px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+
+.other ul li {
+    float: left;
+}
+
+.other ul li a {
+    font-size: 14px;
+    margin-right: 20px;
+
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+}
+
+.title .a {
+    width: 1212px;
+    margin: 0 auto;
+}
+
+.title .a .left {
+    float: left;
+}
+
+.title .a span {
+    width: 114px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+}
+
+.title .a .right {
+    float: right;
+}
+
+.title .a .right p {
+    width: 144px;
+    height: 34px;
+    line-height: 34px;
+    float: right;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.title .a .right p .a1 {
+    width: 32px;
+    height: 34px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #fff;
+}
+
+.title .a .right p .a1:hover {
+    border: 1px solid #000;
+}
+
+.title .a .right p .a1 s {
+    width: 7px;
+    height: 11px;
+    background-position: 0 -38px;
+}
+
+.title .a .right p .a2 s {
+    width: 7px;
+    height: 11px;
+    background-position: 0 -50px;
+}
+
+.title p a s {
+    display: inline-block;
+}
+
+.title .a .right p .a2 {
+    width: 32px;
+    height: 34px;
+    background-color: #fff;
+    float: right;
+    border: 1px solid #fff;
+}
+
+.title .a .right p .a2:hover {
+    border: 1px solid #000;
+}
+
+.title p a s {
+    background: url(../font/listIcon.png) no-repeat;
+}
+
+.content {
+    width: 1212px;
+    height: 1881px;
+    overflow: hidden;
+    background: #fff;
+    padding: 42px 35px 0;
+
+}
+
+.content .newcontent {
+    display: block;
+}
+
+.content ul {
+    overflow: hidden;
+}
+
+.content ul li {
+    padding: 20px 56px;
+    margin-bottom: 44px;
+    overflow: hidden;
+    float: left;
+}
+
+.content ul li a img {
+    display: block;
+    float: left;
+    width: 105px;
+    height: 140px;
+    border: 1px solid #f0f0f0;
+    margin-right: 14px;
+}
+
+.content .bookMation {
+    width: 148px;
+    height: 142px;
+    float: left;
+}
+
+.content .bookMation h3 {
+    height: 27px;
+    width: 148px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content .bookMation h3 a {
+    color: #212121;
+}
+
+.content .read a {
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    float: right;
+    background: #f26552;
+}
+
+.content .newcontent s {
+    float: left;
+    width: 14px;
+    height: 9px;
+    background: url(../font/icon.png) no-repeat -86px -73px;
+    margin: 6px 6px 14px 0;
+}
+
+.content .newcontent .ch {
+    width: 148px;
+    height: 48px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-top: 8px;
+}
+
+.page {
+    width: 1212px;
+    height: 36px;
+    margin-top: 22px;
+    /* text-align: center; */
+}
+
+.page .zi {
+    width: 396px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.page .zi a {
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    text-align: center;
+    background: #fff;
+    border-radius: 3px;
+    margin: 0 8px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.page .zi .left {
+    float: left;
+    display: block;
+    width: 82px;
+    height: 36px;
+    text-align: center;
+}
+
+.page .zi .right {
+    float: right;
+    display: block;
+    width: 80px;
+    height: 34px;
+    text-align: center;
+}
+
+.page .zi .left s {
+    background: url(../font/listIcon.png);
+}
+
+.page .zi .cur {
+    float: left;
+    background: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    color: #fff;
+}
+
+.page .zi .cur1,
+.page .zi .cur2,
+.page .zi .cur3 {
+    float: left;
+}
+
+.page .zi .cur3 {
+    width: 30px;
+    height: 33px;
+    background: none;
+    border: none;
+}
+
+.page .zi cur1:hover {
+    border: 1px solid #9e9e9e;
+}

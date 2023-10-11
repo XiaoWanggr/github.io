@@ -1,0 +1,41 @@
+.top {
+    width: 100%;
+    background: #fff;
+    border-bottom: 2px solid #f26552;
+}
+.top .cen {
+    width: 1212px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    background: url(../images/logo.jpg) no-repeat;
+    width: 120px;
+    height: 84px;
+    float: left;
+}
+.right {
+    float: right;
+}
+.right span a{
+    font-size: 19px;
+    height: 84px;
+    line-height: 84px;
+    color: #9e9e9e;
+}
+.right span a:hover {
+    color: #f26552;
+}
+.text {
+    width: 1212px;
+    margin: 0 auto;
+}
+.text p {
+    font-size: 50px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-family: "华文楷体";
+    padding-top: 100px;
+    font-weight: bold;
+}
